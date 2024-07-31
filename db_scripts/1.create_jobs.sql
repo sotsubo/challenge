@@ -1,0 +1,4 @@
+CREATE TABLE jobs (
+    id INT PRIMARY KEY,
+    job VARCHAR(255) NOT NULL
+);

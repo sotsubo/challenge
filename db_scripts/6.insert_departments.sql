@@ -1,0 +1,12 @@
+insert into departments VALUES (1,'Product Management');
+insert into departments VALUES (2,'Sales');
+insert into departments VALUES (3,'Research and Development');
+insert into departments VALUES (4,'Business Development');
+insert into departments VALUES (5,'Engineering');
+insert into departments VALUES (6,'Human Resources');
+insert into departments VALUES (7,'Services');
+insert into departments VALUES (8,'Support');
+insert into departments VALUES (9,'Marketing');
+insert into departments VALUES (10,'Training');
+insert into departments VALUES (11,'Legal');
+insert into departments VALUES (12,'Accounting');

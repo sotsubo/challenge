@@ -1,0 +1,65 @@
+# Challenge  
+
+This application has 3 endpoints 
+*/employees POST for upload the historical employees hired
+*/total_employees_per_quarter GET 
+*/top_hired_by_department
+__Prerequisites:__
+* Python 3.7+ or later (Python 3.11+ is preferred)
+* A smile on your face
+
+# Setup
+
+## MySQL
+* Create a new Mysql server 
+* Execute db_scripts files by order. This will create tables, views and the insert for departments and jobs.
+
+
+# Running
+## Set Up Environment Variables
+Set the following variables:
+
+```bash
+export DB_USER='your-private-db_user'
+export DB_PASS='your-private-db_pass"'
+export DB_HOST='your-private-db_host"'
+export DB_NAME='your-private-db_name'
+
+```
+
+## Installing Dependencies
+Install the required Python packages. It's recommended to create a virtual environment first:
+
+```bash
+python -m venv env
+source env/bin/activate  
+```
+Then install the packages:
+
+```
+pip install -r requirements.txt
+```
+
+## Running the Application
+Run the application, use:
+
+```commandline
+fastapi dev
+```
+
+This will start the application, and it will begin listening for messages on the specified port.
+
+
+# Stopping the Application
+To stop the application, use Ctrl+C. The application is set up to handle graceful shutdown and will attempt to process all remaining messages before exiting.
+
+
+
+# Running Tests
+To run all unit tests, use the following command:
+
+
+```python -m unittest discover -s tests```
+
+This command will find and run all test cases located in the `tests/` directory.
+
