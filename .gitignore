@@ -5,3 +5,4 @@ main_weblistener.py
 main_copy.py
 __pycache__/
 main_bkp.py
+.DS_Store
