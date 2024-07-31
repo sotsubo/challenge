@@ -12,7 +12,7 @@ __Prerequisites:__
 
 ## MySQL
 * Create a new Mysql server 
-* Execute db_scripts files by order. This will create tables, views and the insert for departments and jobs.
+* Execute db_scripts files by order. This will create tables, views, and inserts for departments and jobs.
 
 
 # Running
@@ -21,8 +21,8 @@ Set the following variables:
 
 ```bash
 export DB_USER='your-private-db_user'
-export DB_PASS='your-private-db_pass"'
-export DB_HOST='your-private-db_host"'
+export DB_PASS='your-private-db_pass'
+export DB_HOST='your-private-db_host'
 export DB_NAME='your-private-db_name'
 
 ```
@@ -55,11 +55,4 @@ To stop the application, use Ctrl+C. The application is set up to handle gracefu
 
 
 
-# Running Tests
-To run all unit tests, use the following command:
-
-
-```python -m unittest discover -s tests```
-
-This command will find and run all test cases located in the `tests/` directory.
 
